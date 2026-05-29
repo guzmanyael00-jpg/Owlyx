@@ -1,0 +1,114 @@
+:root {
+    --owy-brown: #8B4513;
+    --owy-orange: #D2691E;
+    --owy-text: #2c3e50;
+    --owy-bg: #fdfdfd;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--owy-bg);
+    color: var(--owy-text);
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: var(--owy-brown);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 5px solid var(--owy-orange);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.badge {
+    background: var(--owy-orange);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.download-section {
+    margin-top: -40px;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-top: 4px solid var(--owy-orange);
+}
+
+.btn-download {
+    display: inline-block;
+    background-color: var(--owy-orange);
+    color: white;
+    padding: 18px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 15px rgba(210, 105, 30, 0.4);
+}
+
+.security-note {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #fff3e0;
+    border-left: 5px solid #ff9800;
+    font-size: 0.85rem;
+    text-align: left;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.feature {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.feature h3 {
+    color: var(--owy-orange);
+    border-bottom: 2px solid var(--owy-orange);
+    display: inline-block;
+}
+
+.specs table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+.specs td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+footer {
+    background: #222;
+    color: #999;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.85rem;
+}
